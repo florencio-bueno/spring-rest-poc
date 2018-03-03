@@ -41,7 +41,7 @@ import bueno.spring.restpoc.model.User;
 @SpringBootTest
 @AutoConfigureMockMvc
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class UserControllerMainTests {
+public class UserControllerTests {
 
 	@Autowired
 	private MockMvc mockMvc;
